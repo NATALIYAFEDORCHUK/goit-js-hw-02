@@ -1,4 +1,5 @@
 function getShippingCost(country) {
+    let prise;
     switch (country) {
         case 'Australia':
             price = 170;
